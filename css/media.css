@@ -1,0 +1,99 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.container {
+    width: 500px;
+    height: 529px;
+    background-color: green;
+    border: 2px solid red;
+}
+.text{
+	font-size: 26px;
+	color: yellow;
+}
+.text2{
+	font-size: 20px;
+	color: red;
+}
+.container1{
+	width: 500px;
+}
+.img_item1{
+	width:100%;
+	border: 5px solid red;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.text{
+	font-size: 35px;
+	color: green;
+}
+.text2{
+	font-size: 30px;
+	color: brown;
+}
+.img_item1{
+	width:100%;
+	border: 5px solid red;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.container{
+	height: 550px;
+	background-color: blue;
+}
+.text{
+	font-size: 45px;
+	color: gray;
+}
+.text2{
+	font-size: 50px;
+	color: aqua;
+}
+.box{
+	background-color: gray;
+}
+.img_item1{
+	width:100%;
+	border: 5px solid green;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.container{
+	height: 550px;
+	background-color: gray;
+}
+.text{
+	font-size: 55px;
+	color: pink;
+}
+.box{
+	background-color: green;
+}
+.img_item1{
+	border: 5px solid blue;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+.text{
+	font-size: 65px;
+	color: blue;
+}
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+.container{
+	height: 600px;
+}
+
+}
